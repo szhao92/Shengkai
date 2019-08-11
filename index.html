@@ -4,13 +4,39 @@
 <meta charset="UTF-8">
 <title>ShengkaiDesign</title>
 	
-<link rel="shortcut icon" type="image/png" href="pic/fiv.png">
-	
+    <link rel="shortcut icon" type="image/png" href="pic/fiv.png">
+	<script src="http://code.jquery.com/jquery-1.7.1.js"></script>	
+    <script src="http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js"></script>
 
 
 </head>
 
 <body>
+
+
+
+<!--<script>	
+function SVG(tag) {
+    return document.createElementNS('http://www.w3.org/2000/svg', tag);
+}	
+	
+$(".Layer_2").rotate({ 
+     bind: 
+     { 
+        mouseover : function() { 
+            $(this).rotate({animateTo:180})
+        },
+        mouseout : function() { 
+            $(this).rotate({animateTo:0})
+        }
+     } 
+   
+});
+
+
+
+</script>
+-->
 <style>
    
 	body{
@@ -24,6 +50,8 @@
 		color:Black;
 		font-size: 14pt;
 		font-family:GTCinetypeLight;
+		letter-spacing: 1pt;
+
 	}
 	#header{
 		   align:center;
@@ -64,12 +92,13 @@ a:hover {
 	    max-height: 60%;
 		align-items:flex-start;
 		letter-spacing: 1pt;
-		font-size: 18pt;
+		font-size:2.5vh;
 		text-align: left;
         text-justify: inter-character;
 		position:fixed;
-		line-height:1.8;
+		line-height:1.7;
 		font-family:GTCinetypeLight;
+		margin-bottom:20%;
 		
 	}
 
@@ -78,7 +107,7 @@ a:hover {
           
           position:absolute;
            width:100%;
-           bottom:2%;
+           bottom:5%;
            text-align:center;
 
 	}
@@ -96,14 +125,78 @@ a:hover {
 		
 	}
 
-	#Layer_1{
-		      height: 20%;
-		      width:20%;
+	.icon{
+		      height: 25%;
+		      width:25%;
               position:relative;
 		      margin-right: 15%;
-		      margin-top: 12%;
+		      margin-top: 10%;
 		
 	}
+
+
+.Layer_2{
+
+	transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  width: 250px;
+  height: 150px;
+  display: block;
+  
+   -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    
+
+}
+
+.Layer_2:hover{
+           transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+
+
+}
+
+ /*.Layer_2:hover{
+
+
+-webkit-animation: spin1 4s infinite linear;
+-moz-animation: spin1 4s infinite linear;
+-o-animation: spin1 4s infinite linear;
+-ms-animation: spin1 4s infinite linear;
+animation: spin1 4s infinite linear;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    
+}
+ 
+@-webkit-keyframes spin1 {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin1 {
+0% { -moz-transform: rotate(0deg); }
+100% { -moz-transform: rotate(360deg);}
+}
+@-o-keyframes spin1 {
+0% { -o-transform: rotate(0deg);}
+100% { -o-transform: rotate(360deg);}
+}
+*/
 
 </style>
 	
@@ -123,27 +216,34 @@ a:hover {
 	</div>	
 	
 <div class="spain" align="right">
-	<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414.09 389.09">
-  <title>wheel</title>
-  <text transform="translate(27.72 269.32) rotate(58.09) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">D</text>
-  <text transform="translate(80.79 334.87) rotate(34.06) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">E</text>
-  <text transform="matrix(0.69, 0.13, -0.13, 0.69, 151.72, 371.21)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">S</text>
-  <text transform="matrix(0.69, -0.12, 0.12, 0.69, 231.26, 375.68)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">I</text>
-  <text transform="translate(290.7 358.14) rotate(-31.82) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">G</text>
-  <text transform="translate(357.58 304.48) rotate(-57.4) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">N</text>
-  <g>
-    <text transform="translate(46.98 203.62) rotate(-83.85) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">S</text>
-    <text transform="matrix(0.36, -0.6, 0.6, 0.36, 60.04, 140.37)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">H</text>
-    <text transform="translate(101.34 85.15) rotate(-34.9) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">E</text>
-    <text transform="translate(156.38 53.79) rotate(-9.9) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">N</text>
-    <text transform="translate(227.87 48.59) rotate(15.73) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">G</text>
-    <text transform="translate(291.6 73.67) rotate(40.87) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">K</text>
-    <text transform="translate(338.34 123.18) rotate(65.44) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">A</text>
-    <text transform="matrix(0.04, 0.7, -0.7, 0.04, 358.92, 187.04)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">I</text>
+	<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 498 498">
+  <g id="Layer_1" data-name="Layer 1">
+    <rect width="498" height="498" style="fill: #96c9ea"/>
+    <circle cx="248.17" cy="242.36" r="91.11" style="fill: #050505"/>
+    <text transform="translate(195.42 261.42) scale(0.7)" style="font-size: 66.4000015258789px;fill: #96c9ea;font-family: GTCinetypeRegular, GT Cinetype;letter-spacing: 0.19999781373036785em">NET</text>
+  </g>
+  <g class="Layer_2" data-name="Layer 2">
+    <g>
+      <text transform="translate(72.97 318.55) rotate(58.09) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">D</text>
+      <text transform="translate(126.04 384.1) rotate(34.06) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">E</text>
+      <text transform="matrix(0.69, 0.13, -0.13, 0.69, 196.98, 420.44)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">S</text>
+      <text transform="matrix(0.69, -0.12, 0.12, 0.69, 276.51, 424.91)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">I</text>
+      <text transform="translate(335.95 407.37) rotate(-31.82) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">G</text>
+      <text transform="translate(402.83 353.71) rotate(-57.4) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">N</text>
+      <g>
+        <text transform="translate(92.23 252.85) rotate(-83.85) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">S</text>
+        <text transform="matrix(0.36, -0.6, 0.6, 0.36, 105.29, 189.6)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">H</text>
+        <text transform="translate(146.59 134.38) rotate(-34.9) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">E</text>
+        <text transform="translate(201.63 103.02) rotate(-9.9) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">N</text>
+        <text transform="translate(273.12 97.81) rotate(15.73) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">G</text>
+        <text transform="translate(336.85 122.9) rotate(40.87) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">K</text>
+        <text transform="translate(383.59 172.41) rotate(65.44) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">A</text>
+        <text transform="translate(404.17 236.27) rotate(86.71) scale(0.7)" style="font-size: 80px;fill: #231f20;font-family: GTCinetypeRegular, GT Cinetype">I</text>
+      </g>
+    </g>
   </g>
 </svg>
 
-	
 	
 	
 	
@@ -152,6 +252,7 @@ a:hover {
     <div class="footer">
 	<h2 class="text" style=" font-size:12pt; font-family: GTCinetypeLight;">Portfolio Site Under Construction</h2>
 	</div>	
+
 	
 </body>
 </html>
